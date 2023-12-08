@@ -16,9 +16,9 @@ or
 
 ### Parameters
 
-```min```: the minimum random walue created
+```min```: the minimum random value created
 
-```max```: the maximum random walue created
+```max```: the maximum random value created
 
 ```num```: the amount of numbers created internally
 
@@ -27,3 +27,4 @@ or
 if ```min``` is 4 and ```max``` is 45, the smallest random numer is 4 and the largest is 45.
 
 the ```num``` parameters describes how many random numbers are fetched from random.org in one go. If you ask for more numbers then initially fetched, the package fetches the next ```num``` numbers.
+It is planned to do that asynchonously but this is not yet implemented.
