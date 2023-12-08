@@ -17,7 +17,9 @@ or
 ### Parameters
 
 ```min```: the minimum random walue created
-```min```: the maximum random walue created
+
+```max```: the maximum random walue created
+
 ```num```: the amount of numbers created internally
 
 ### example
