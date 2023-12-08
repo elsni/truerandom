@@ -14,6 +14,10 @@ or
 
 ```gen, err := NewFloatGenerator(min, max, num)```
 
+Then you can get a random number like this:
+
+```myrandomnumber := gen.Rand()```
+
 ### Parameters
 
 ```min```: the minimum random value created
